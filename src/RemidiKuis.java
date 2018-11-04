@@ -14,10 +14,10 @@ public class RemidiKuis {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Mobil mo = new Mobil( "Sport", "Ferrari","458");
-        Mesin ms = new Mesin("456KHUA", "4.4999cc", 563, mo);
-        Suspensi s = new Suspensi("KSRU678", "Sport", "Berlinetta",mo);
-        Roda r = new Roda("R14-R17", "Horsepower", "Spider", 540, mo);
+        Motor mo = new Motor( "Sport", "Kawasaki","123468");
+        Mesin ms = new Mesin("MS982H1K0", "2-Tak", 150, mo);
+        Suspensi s = new Suspensi("MH897Z9UK", "Sport", "Kawahara",mo);
+        Roda r = new Roda("110-130", "On-Road", "Corsa R99", 17, mo);
         
         mo.info();
         System.out.println("");

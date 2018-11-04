@@ -11,9 +11,9 @@
 public class Suspensi {
 
     private String idSuspensi, jenisSuspensi, merkSuspensi;
-    private Mobil idRangka;
+    private Motor idRangka;
 
-    public Suspensi(String id, String jenis, String merk, Mobil idRang) {
+    public Suspensi(String id, String jenis, String merk, Motor idRang) {
         idSuspensi = id;
         jenisSuspensi = jenis;
         merkSuspensi = merk;
@@ -44,11 +44,11 @@ public class Suspensi {
         return merkSuspensi;
     }
 
-    public void setIDRangka(Mobil idRang) {
+    public void setIDRangka(Motor idRang) {
         idRangka = idRang;
     }
 
-    public Mobil getIDRangka() {
+    public Motor getIDRangka() {
         return idRangka;
     }
 
